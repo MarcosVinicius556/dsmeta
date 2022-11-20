@@ -17,6 +17,11 @@ Criação do projeto com DsMeta com React.js e Springboot
 - Para executar o projeto e verificar se está tudo correto basta digitar 
   o comando "yarn dev"
 
+- O arquivo main.tsk é o responsável pela base da aplicação, utilizando 
+  o index.html como base do html (Um vai chamar ao outro)
+
+- O arquivo main.tsx chama o App.tsx que vai incluir elementos no index.html
+
 
 
 
@@ -29,3 +34,4 @@ O projeto Spring será criado utilizando o Spring initializr com as seguintes de
 - Spring Security
 
 - Ao criar o projeto configurar o pom.xml adicionando o plugin do maven
+
