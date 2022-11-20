@@ -49,6 +49,9 @@ Criação do projeto com DsMeta com React.js e Springboot
   (hook => Gancho, atrelado ao componente)
   (useState => guarda o estado do componente, altera os dados do useState => Altera o componente)
 
+Coisas para estudar => - React Hooks e suas funções
+			     - Componentes do React
+
 ------------------------------Back-end-------------------------------
 
 O projeto Spring será criado utilizando o Spring initializr com as seguintes dependencias:
@@ -58,4 +61,12 @@ O projeto Spring será criado utilizando o Spring initializr com as seguintes de
 - Spring Security
 
 - Ao criar o projeto configurar o pom.xml adicionando o plugin do maven
+
+- Criar classe de segurança
+
+- Para uma aplicação que está hospedada em determinado lugar, utilizando
+  um backend localizado em outro, é necessário habilitar isso nas configurações, 
+  por padrão é desabilitado. (Cors)
+
+Coisas para estudar => - Cors
 
