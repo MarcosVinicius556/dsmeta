@@ -1,0 +1,31 @@
+Criação do projeto com DsMeta com React.js e Springboot
+
+-------------------------Front-end----------------------------------
+
+- yarn é um gerenciador de dependencias (como o maven)
+
+- Para criar a parte front end do projeto basta utilizar o comando yarn 
+  create vite <NomeDaPastaQueDesejaCriar> após isso o yarn vai criar os
+  arquivos iniciais para a criação do projeto
+
+- Após criado a pasta no arquivo "Package.json" será listado as dependencia 
+  do projeto que devem ser incluidas para seu funcionamento
+
+- Executar o comando yarn para que seja adiconado a pasta "node-modules" 
+  com as dependencias descritas no package.json
+
+- Para executar o projeto e verificar se está tudo correto basta digitar 
+  o comando "yarn dev"
+
+
+
+
+------------------------------Back-end-------------------------------
+
+O projeto Spring será criado utilizando o Spring initializr com as seguintes dependencias:
+- Spring Web
+- Spring Jpa
+- H2 DataBase
+- Spring Security
+
+- Ao criar o projeto configurar o pom.xml adicionando o plugin do maven
