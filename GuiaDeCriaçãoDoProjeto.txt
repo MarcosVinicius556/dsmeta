@@ -2,6 +2,8 @@ Criação do projeto com DsMeta com React.js e Springboot
 
 -------------------------Front-end----------------------------------
 
+- Assets serve para guardar os recursos que serão utilizados no projeto
+
 - yarn é um gerenciador de dependencias (como o maven)
 
 - Para criar a parte front end do projeto basta utilizar o comando yarn 
@@ -22,8 +24,19 @@ Criação do projeto com DsMeta com React.js e Springboot
 
 - O arquivo main.tsx chama o App.tsx que vai incluir elementos no index.html
 
+- React funciona com componentes que são gerados e representados graficamente
 
+- Em react cada componente será armazenado em um arquivo
 
+- nos arquivos tsx haverá uma função, que dentro dela retornara um código html
+
+- Os componentes poderão e deversão ser importados em outros arquivos, como no 
+  App.tsx por exemplo (Parecido com orientação a objetos talvez...)
+
+- Components react não podem exportar mais de uma tag, para isso deverá colocar 
+  <> </> (Fragment)
+
+- Component é um pedaço ed código que pode ser reaproveitado pelo sistema
 
 ------------------------------Back-end-------------------------------
 
