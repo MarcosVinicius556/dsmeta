@@ -38,6 +38,10 @@ Criação do projeto com DsMeta com React.js e Springboot
 
 - Component é um pedaço ed código que pode ser reaproveitado pelo sistema
 
+- App.tsx está sendo a "página completa do site"
+
+- Date picker é um componente nativo do react (Estudar mais sobre componentes do react)
+
 ------------------------------Back-end-------------------------------
 
 O projeto Spring será criado utilizando o Spring initializr com as seguintes dependencias:
