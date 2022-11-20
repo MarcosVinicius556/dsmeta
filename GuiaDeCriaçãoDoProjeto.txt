@@ -42,6 +42,13 @@ Criação do projeto com DsMeta com React.js e Springboot
 
 - Date picker é um componente nativo do react (Estudar mais sobre componentes do react)
 
+- No react os componentes visuais, para mostrarem novos resultados, devem ser mudados 
+  os dados contidos neste componente (Altera dados => React altera visual)
+
+- React hook => Recursos do react atrelados ao ciclo de vida do componente
+  (hook => Gancho, atrelado ao componente)
+  (useState => guarda o estado do componente, altera os dados do useState => Altera o componente)
+
 ------------------------------Back-end-------------------------------
 
 O projeto Spring será criado utilizando o Spring initializr com as seguintes dependencias:
