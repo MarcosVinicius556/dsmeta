@@ -68,5 +68,7 @@ O projeto Spring será criado utilizando o Spring initializr com as seguintes de
   um backend localizado em outro, é necessário habilitar isso nas configurações, 
   por padrão é desabilitado. (Cors)
 
+- Criar arquivo import.sql para semear o banco automaticamente
+
 Coisas para estudar => - Cors
 

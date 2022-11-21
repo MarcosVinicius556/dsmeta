@@ -1,0 +1,26 @@
+package com.devsuperior.dsmeta.entities;
+
+import java.io.Serializable;
+import java.time.LocalDate;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class Sale implements Serializable{
+
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	private Long id;
+	private String sellerName;
+	private Integer visited;
+	private Integer deals;
+	private Double amount;
+	private LocalDate date;
+	
+	public Sale() {
+		
+	}
+	
+}
