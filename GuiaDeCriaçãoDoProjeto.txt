@@ -70,5 +70,7 @@ O projeto Spring será criado utilizando o Spring initializr com as seguintes de
 
 - Criar arquivo import.sql para semear o banco automaticamente
 
+- Controller => Service => Repository
+
 Coisas para estudar => - Cors
 

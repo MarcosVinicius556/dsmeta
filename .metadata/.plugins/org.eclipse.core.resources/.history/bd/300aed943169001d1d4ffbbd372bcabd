@@ -1,0 +1,7 @@
+package com.devsuperior.dsmeta.services;
+/**
+ * Operações de negócio
+ */
+public class SaleService {
+
+}

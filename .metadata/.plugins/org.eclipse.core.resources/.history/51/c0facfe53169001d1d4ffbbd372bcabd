@@ -1,0 +1,32 @@
+package com.devsuperior.dsmeta.services;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.devsuperior.dsmeta.entities.Sale;
+import com.devsuperior.dsmeta.repositories.SaleRepository;
+
+/**
+ * Operações de negócio
+ * 
+ * por exemplo listar
+ */
+
+@Service
+public class SaleService {
+
+	@Autowired
+	private SaleRepository repository;
+	
+	public List<Sale> findSales(){
+		List<Sale> listSales = new ArrayList<>();
+		
+		listSales = repository.findAll();
+		
+		return listSales;
+	}
+	
+}

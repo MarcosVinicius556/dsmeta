@@ -1,0 +1,25 @@
+package com.devsuperior.dsmeta.services;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.devsuperior.dsmeta.entities.Sale;
+
+/**
+ * Operações de negócio
+ * 
+ * por exemplo listar
+ */
+
+@Service
+public class SaleService {
+
+	public List<Sale> findSales(){
+		List<Sale> listSales = new ArrayList<>();
+		
+		return listSales;
+	}
+	
+}
