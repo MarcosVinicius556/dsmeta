@@ -72,5 +72,11 @@ O projeto Spring será criado utilizando o Spring initializr com as seguintes de
 
 - Controller => Service => Repository
 
+- Pageable, Page => Resultados paginados
+
+- Os dados são recebidos como texto, e posteriormente são convertidos
+
+
 Coisas para estudar => - Cors
+ 			     - Assistir video sobre jpaRespository devSuperior
 
