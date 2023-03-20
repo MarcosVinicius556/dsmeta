@@ -76,6 +76,7 @@ O projeto Spring será criado utilizando o Spring initializr com as seguintes de
 
 - Os dados são recebidos como texto, e posteriormente são convertidos
 
+- Twilio API para uso de sms
 
 Coisas para estudar => - Cors
  			     - Assistir video sobre jpaRespository devSuperior
